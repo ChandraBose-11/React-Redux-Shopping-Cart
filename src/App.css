@@ -1,0 +1,53 @@
+.container {
+  width: 1000px;
+  height: 1000px;
+}
+body {
+  background-color: white;
+}
+.card-body {
+  background-color: white;
+  font-style: italic;
+}
+.slide {
+  background-color: white;
+}
+.one {
+  color: rgb(36, 34, 34);
+}
+@media only screen and (max-width: 576px) {
+  .container {
+    padding: 20px;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+
+  .carousel-inner img {
+    max-height: 200px;
+  }
+}
+.icons {
+  color: black;
+}
+.cart {
+  color: rgb(241, 171, 9) !important;
+}
+.Dis {
+  color: lightcoral !important;
+}
+.card-body {
+  background-color: rgb(245, 241, 241);
+  padding: "30px";
+  margin: 15px;
+}
+font {
+  color: rgb(92, 41, 57);
+}
+.free {
+  color: rgb(15, 15, 227);
+}
+.box {
+  color: brown;
+}
